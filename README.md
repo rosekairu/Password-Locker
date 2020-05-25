@@ -1,13 +1,13 @@
 # Password-Locker
 This is a python based application where users can manage their passwords. It allows one to create, store and copy their various account credentials.
 
-Current version May 2020 #By **Rose Kairu**
+Current version May 2020 ## By **Rose Kairu**
 
 ## Description
 
-User may enter a GitHub username into a form, submit it, and see names and descriptions of various Projects that, that person's public repositories holds.
+This app allows users to store account credentials, gives them the chance to create new accounts and store the new  account    credentials, they can also delete the credentials they don't need any more. The app is also able to generate passwords for their users if prompted to.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.4.
+This project was generated with [python3.6]
 
 ## Setup/Installation
 
@@ -16,7 +16,7 @@ Git installed in pc - for downloading the application to interact with it locall
 Text Editor e.g. Visual Studio or Atom or pycharm - for creating, viewing and editing the code.
 A CLI (Command Line Interface) or terminal where the user gets to interact with the application using the various python commands e.g. python3.6 run.py or ./run.py commands.
 
-##Interacting with the Password Locker App
+## Interacting with the Password Locker App
 
 Follow the instructions as prompted, e.g.:
 Creating a user account, loging in to the account you have created
@@ -27,6 +27,22 @@ Interacting with the Password Locker options once you are logged in i.e. by foll
   4 - Delete credential
   5 - Copy account password
   x - Exit the credential display mode
+  
+  ## BDD	    
+  
+|    Behavior      |            Result                                              |
+| :-------------   | :----------:                                                   |
+|  User types in 1 | when requested	User is prompted to input account details       |
+| User types in 2  | User is able to view all accounts created by him/her           |
+| User types in 3  | User is able to search for saved accounts using their username |
+| User types in 4  | The application closes                                         |
+
+## TDD
+-To test the app, run this commands in the terminal;
+
+$ python3.6 user_test.py
+
+$ python3.6 credential_test.py
 
 ## Technologies Used
 
