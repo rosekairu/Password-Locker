@@ -53,6 +53,6 @@ python3.6
 
 Incase of any issues arising from using PasswordLocker app kindly reach out to me via email at rosekairu@gmail.com
 
-### [MIT License](https://github.com/rosekairu/Password-Locker/blob/master/LICENSE)
+### [MIT License](https://img.shields.io/github/license/rosekairu/Password-Locker/blob/master/LICENSE)
 
 Copyright (c) 2020 **Rose Kairu**
