@@ -1,7 +1,8 @@
+[![codebeat badge](https://codebeat.co/badges/c6d35ebd-d816-4f44-990f-07b1bf3e1318)](https://codebeat.co/projects/github-com-rosekairu-password-locker-master)
 # Password-Locker
 This is a python based application where users can manage their passwords. It allows one to create, store and copy their various account credentials.
 
-Current version May 2020 ## By **Rose Kairu**
+Current version May 2020 # By **Rose Kairu**
 
 ## Description
 
